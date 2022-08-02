@@ -1,0 +1,94 @@
+
+
+.logo{
+  width:30%;
+  border-radius: 200px;
+}
+
+.aneis{
+ text-align:center;
+}
+.container{
+  background-color: var(--bs-body-bg);
+}
+.nav-pills .nav-link{
+  color:blueviolet;
+}
+.input-group{
+  width:30%;
+}
+.input-group .btn{
+color:blueviolet;
+}
+.contato{
+  text-align:center;
+}
+.img-contato{
+  text-align:center;
+  padding-top: 4%;
+}
+
+.buttom{
+  text-align:center;
+}
+.login{
+  color: black;
+  text-decoration: none;
+}
+//Cadastre-se
+
+.central{
+  text-align:center;
+
+}
+.cadastre-se{
+  margin: 10px;
+}
+.fa.fa-tasks{
+  margin: 10px;
+}
+.col-sm-3.control-label{
+  margin: 10px;
+}
+.cadastro{
+  margin: 10px;
+}
+.col-sm{
+  margin: 10px;
+}
+.mb-3{
+  width:30%;
+  text-align:center;
+}
+//minha conta
+.input-group.mb-3 {
+  width:30%;
+  margin:20px;
+}
+//conjunto
+
+.btn-product_list{
+  font-size: 15px;
+}
+.list_product_name{
+  font-size: 15px;
+ 
+}
+.title{
+  text-decoration: none;
+  color:black;
+  text-decoration-line: none;
+}
+.link_href{
+  color:black;
+}
+// conjunto
+.row{
+  float: left;
+  margin: auto;
+}
+// FOOTER
+.container{
+  
+
+}

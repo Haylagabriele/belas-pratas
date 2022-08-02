@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+  <title>Belas Pratas/Casdastro</title>
+</head>
+<div class="container">
+  <header class="d-flex justify-content py-3">
+    <ul class="nav nav-pills">
+      <li class="nav-item"><a href="contato.html" class="nav-link">Fale conosco</a></li>
+      <li class="nav-item"><a href="cadastre-se.html" class="nav-link">Cadastrar</a></li>
+      <li class="nav-item"><a href="minhaconta.html" class="nav-link">Minha Conta</a></li>
+    
+      <li class="pull-right search_bar">
+        <div id="search" class="input-group">
+          <span class="input-group-btn"> 
+            <form class="d-flex" role="search">
+              <button class="btn btn-outline" type="submit">Buscar</button>
+            </form>
+              
+          </div>
+         </li>
+         </div>
+         <div class="container">
+          <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+            <a href="/src/index.html" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+              <img src="imgs/e804fd0c-8b39-4b05-bf17-d90c418eedd1.jpg" class="logo" alt="">
+            </a>
+      
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="index.html" class="nav-link px-2 link-secondary">Página Inicial</a></li>
+              <li><a href="contato.html" class="nav-link px-2 link-dark">Contato</a></li>
+              <li><a href="imagens.html" class="nav-link px-2 link-dark">Imagens</a></li>
+              <li><a href="#" class="nav-link px-2 link-dark">Localização</a></li>
+              <li><a href="https://www.instagram.com/belapratas___/" class="nav-link px-2 link-dark">Instagran</a></li>
+            </ul>
+      
+            <div class="col-md-3 text-end">
+              <button type="button" class="btn btn-outline-primary me-2">Acessar</button>
+              <button type="button" class="btn btn-primary">Sign-up</button>
+            </div>
+          </header>
+        </div>
+<body class="central">
+  <div class="img-contato">
+  <img src="imgs/download (1).jpg" alt="">
+</div>
+<div class="cadastre-se">
+  <h1>cadastre-se</h1>
+ <p >"Se você já possui uma conta conosco, por favor, faça seu login na 
+  <a class="login" href="file:///C:/Users/suporte/Documents/Cursos/Projetos/belas%20pratas/src/index.html">página de login"</a>
+</p>
+</div>
+<legend><i class="fa fa-tasks" aria-hidden="true"></i>Informações da Conta</legend>
+<div class="form-group">
+  <label class="col-sm-3 control-label">Tipo de Cadastro</label>
+  <br>
+  <br>
+  <div class="col-sm">
+    <label class="radio-inline"> 
+    <input type="radio" name="type_person" onclick="pessoaFisica(';',';',';');" value="F" checked="checked">Pessoa Física </label>
+   <label class="radio-inline">
+   <input type="radio" name="type_person" onclick="pessoaJuridica(';',';',';');" value="J">Pessoa Jurídica </label>
+  </div>
+  </div>
+  <br>
+    <br>
+    <form class="cadastro">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Nome</label>
+        <input type="text" placeholder="Digite seu Nome"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Digite seu CPF</label>
+        <input type="text" placeholder="somente numeros" class="form-control" id="exampleInputPassword1">
+      </div>
+      
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Data de Nacimento</label>
+        <input type="date" placeholder="Digite data de Nancimento" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Digite seu celular</label>
+        <input type="tel" placeholder="somente numeros" class="form-control" id="exampleInputPassword1">
+      </div>
+      <form>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Digite seu Email</label>
+        <input type="email" placeholder="Digite seu email" class="form-control" id="exampleInputPassword1">
+      </div>
+                                               
+      <div class="row g-3 align-items-center">
+        <div class="col-auto">
+          <label for="inputPassword6" class="col-form-label">senha</label>
+        </div>    
+        <div class="col-auto">
+          <input type="password" id="inputPassword6" class="form-control" placeholder="Digite sua senha"aria-describedby="passwordHelpInline">
+        </div>
+        <div class="col-auto">
+          <span id="passwordHelpInline" class="form-text">
+            Digite de 8-20 caracteres.
+          </span>
+        </div>
+      </div>
+
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">verificar</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+
+  <div class="button" style="text-align: center;"> 
+    <button type="button" class="btn btn-light" onclick="window.location.href = 'index.html'">Home</button>
+  </div>
+ 
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

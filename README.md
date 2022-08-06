@@ -1,3 +1,3 @@
-# loja_Bela_pratas
+# Belas-pratas
 
 Loja que vende acessórios de prata

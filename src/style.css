@@ -1,4 +1,8 @@
+  * {
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
 
+}
 
 .logo{
   width:30%;
@@ -87,8 +91,15 @@ color:blueviolet;
   float: left;
   margin: auto;
 }
-// FOOTER
-.container{
-  
-
+// imput
+.imput{
+  color:#d63384!important;
+  border: 1px solid #d63384!important;
+}
+.list-inline {
+  padding-left: 545px;
+  list-style: none;
+}
+a{
+  text-decoration:none;
 }
